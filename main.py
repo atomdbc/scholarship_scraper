@@ -12,7 +12,7 @@ from app.core.database import get_db
 # Configuration
 CORS_ORIGINS = ["*"]  # Allows all origins. Adjust as needed for security.
 HOST = "0.0.0.0"
-PORT = 1000
+PORT = 8080
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
