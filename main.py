@@ -11,7 +11,7 @@ from app.core.database import get_db
 
 # Configuration
 CORS_ORIGINS = ["*"]  
-HOST = "3.86.4.5"
+HOST = "0.0.0.0"
 PORT = 8080
 
 @asynccontextmanager
