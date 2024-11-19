@@ -1,5 +1,5 @@
 // lib/api.ts
-const API_URL = 'http://3.86.4.5/api/status';
+const API_URL = 'http://3.86.4.5/api';
 
 
 export const api = {
