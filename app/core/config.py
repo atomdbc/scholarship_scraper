@@ -20,8 +20,8 @@ class Settings(BaseSettings):
     WORKERS: int = 1
     
     # Security settings
-    ALLOWED_ORIGINS: List[str] = ["http://localhost:3000", "http://localhost:8000"]
-    ALLOWED_HOSTS: List[str] = ["localhost", "127.0.0.1"]
+    ALLOWED_ORIGINS: List[str] = ["*"]
+    ALLOWED_HOSTS: List[str] = ["*"]
     
     # Database settings
     DATABASE_URL: str = "sqlite:///./scholarships.db"
