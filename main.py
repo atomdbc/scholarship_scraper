@@ -10,8 +10,8 @@ from app.scraper.worker import ScholarshipScraper
 from app.core.database import get_db
 
 # Configuration
-CORS_ORIGINS = ["*"]  # Allows all origins. Adjust as needed for security.
-HOST = "0.0.0.0"
+CORS_ORIGINS = ["*"]  
+HOST = "3.86.4.5"
 PORT = 8080
 
 @asynccontextmanager
