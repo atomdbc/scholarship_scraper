@@ -1,0 +1,47 @@
+.
+├── components
+│   ├── common
+│   │   ├── Button.tsx
+│   │   ├── Card.tsx
+│   │   ├── Loading.tsx
+│   │   └── badge.tsx
+│   ├── dashboard
+│   │   ├── FilterPanel.tsx
+│   │   ├── ScholarshipTable.tsx
+│   │   ├── StatusCards.tsx
+│   │   └── TaskProgress.tsx
+│   ├── layout
+│   │   ├── Header.tsx
+│   │   ├── Layout.tsx
+│   │   └── Sidebar.tsx
+│   ├── scholarships
+│   │   ├── ScholarshipCard.tsx
+│   │   ├── ScholarshipDetails.tsx
+│   │   └── ScholarshipFilters.tsx
+│   └── upload
+│       └── UploadForm.tsx
+├── lib
+│   ├── api.ts
+│   ├── types.ts
+│   └── utils.ts
+├── next-env.d.ts
+├── output.txt
+├── package-lock.json
+├── package.json
+├── pages
+│   ├── _app.tsx
+│   ├── dashboard.tsx
+│   ├── index.tsx
+│   ├── scholarships
+│   │   ├── [id].tsx
+│   │   └── index.tsx
+│   └── upload.tsx
+├── postcss.config.js
+├── public
+│   └── assets
+├── styles
+│   └── globals.css
+├── tailwind.config.js
+└── tsconfig.json
+
+13 directories, 32 files

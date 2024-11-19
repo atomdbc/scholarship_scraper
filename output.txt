@@ -1,0 +1,73 @@
+.
+├── alembic
+│   ├── README
+│   ├── env.py
+│   ├── script.py.mako
+│   └── versions
+│       └── 2024_10_30_1910-9203a712648f_initial_migration.py
+├── alembic.ini
+├── app
+│   ├── __init__.py
+│   ├── api
+│   │   ├── __init__.py
+│   │   └── endpoints.py
+│   ├── core
+│   │   ├── __init__.py
+│   │   ├── config.py
+│   │   └── database.py
+│   ├── models
+│   │   ├── __init__.py
+│   │   └── schemas.py
+│   ├── scraper
+│   │   ├── __init__.py
+│   │   ├── parser.py
+│   │   └── worker.py
+│   └── services
+│       ├── __init__.py
+│       └── ai.py
+├── frontend
+│   ├── components
+│   │   ├── common
+│   │   │   ├── Button.tsx
+│   │   │   ├── Card.tsx
+│   │   │   └── Loading.tsx
+│   │   ├── dashboard
+│   │   │   ├── FilterPanel.tsx
+│   │   │   ├── ScholarshipTable.tsx
+│   │   │   └── StatusCards.tsx
+│   │   ├── layout
+│   │   │   ├── Header.tsx
+│   │   │   ├── Layout.tsx
+│   │   │   └── Sidebar.tsx
+│   │   └── scholarships
+│   │       ├── ScholarshipCard.tsx
+│   │       ├── ScholarshipDetails.tsx
+│   │       └── ScholarshipFilters.tsx
+│   ├── lib
+│   │   ├── api.ts
+│   │   ├── types.ts
+│   │   └── utils.ts
+│   ├── next-env.d.ts
+│   ├── output.txt
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── pages
+│   │   ├── _app.tsx
+│   │   ├── dashboard.tsx
+│   │   ├── index.tsx
+│   │   └── scholarships
+│   │       ├── [id].tsx
+│   │       └── index.tsx
+│   ├── postcss.config.js
+│   ├── public
+│   │   └── assets
+│   ├── styles
+│   │   └── globals.css
+│   ├── tailwind.config.js
+│   └── tsconfig.json
+├── main.py
+├── output.txt
+├── requirements.txt
+└── scholarships.db
+
+21 directories, 50 files
